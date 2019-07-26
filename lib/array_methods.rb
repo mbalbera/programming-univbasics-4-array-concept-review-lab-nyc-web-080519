@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  arr.each_with_index {|e,i| return i if e == value_to_find  }
+  array.each_with_index {|e,i| return i if e == value_to_find  }
 end
 
 def find_max_value(array)
